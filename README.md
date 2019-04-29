@@ -33,6 +33,6 @@ Estimate of time needed to complete: one and a half hours
 
 Start time: 8:00
 
-Finish time: 
+Finish time: 10:15
 
-Actual time needed to complete: 
+Actual time needed to complete: two hours fifteen minutes
