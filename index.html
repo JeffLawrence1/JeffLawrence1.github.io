@@ -56,7 +56,30 @@
 
 				<!-- Intro -->
 					<section id="top" class="one dark cover">
-						<div class="container">
+						<div class="container slideshow-container">
+
+<!-- Found at https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+<!-- Slideshow container -->
+
+								<div class="mySlides fade">
+									<div class="numbertext">1 / 4</div>
+									<img class="bannerImage" src="./images/milkyway.jpg">
+								</div>
+							
+								<div class="mySlides fade">
+									<div class="numbertext">2 / 4</div>
+									<img class="bannerImage" src="./images/trees.jpg">
+								</div>
+							
+								<div class="mySlides fade">
+									<div class="numbertext">3 / 4</div>
+									<img class="bannerImage" src="./images/forest.jpg">
+								</div>
+								
+								<div class="mySlides fade">
+										<div class="numbertext">4 / 4</div>
+										<img class="bannerImage" src="./images/beach.jpg">
+								</div>
 
 							<header>
 								<h2 class="alt">Hi! I'm Jeff Lawrence</h2>
@@ -188,11 +211,19 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
+			<script
+				src="https://code.jquery.com/jquery-3.4.0.js"
+				integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+				crossorigin="anonymous">
+			</script>
+				
+			<script src="assets/js/jquery.scrolly.min.js"></script>  <!-- No CDN available, custom and out of date on author's github only-->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollex/0.2.1/jquery.scrollex.min.js"></script>
+
+
+			<script src="assets/js/browser.min.js"></script> <!-- No CDN available, custom and out of date, on the author's github in responsive tools repo-->
+			<script src="assets/js/breakpoints.min.js"></script> <!-- No CDN available, custom and out of date, on the author's github in responsive tools repo-->
+			<script src="assets/js/slideshow.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 

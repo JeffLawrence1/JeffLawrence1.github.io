@@ -21,6 +21,18 @@ Estimate of time needed to complete: two hours
 
 Start time: 10:00
 
-Finish time: _____
+Finish time: 11:45
 
-Actual time needed to complete: _____
+Actual time needed to complete: One hour forty five minutes
+
+# Feature Three - Add Some Functionality
+
+Number and name of feature: Feature three adding some functionality
+
+Estimate of time needed to complete: one and a half hours
+
+Start time: 8:00
+
+Finish time: 10:15
+
+Actual time needed to complete: two hours fifteen minutes
